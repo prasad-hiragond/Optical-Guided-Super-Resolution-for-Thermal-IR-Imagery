@@ -73,7 +73,7 @@ print(f"✓ Using device: {config.DEVICE}")
 print(f"✓ Checkpoints will be saved to: {config.CHECKPOINT_DIR}")
 
 # Paths - UPDATE THESE TO YOUR PATHS
-LR_THERMAL_PATH = "/content/drive/MyDrive/BD"
+  LR_THERMAL_PATH = "/content/drive/MyDrive/BD"
     HR_OPTICAL_PATH = "/content/drive/MyDrive/HR RGB"
     HR_THERMAL_PATH = "/content/drive/MyDrive/GT thermal"
 
@@ -82,7 +82,6 @@ LR_THERMAL_PATH = "/content/drive/MyDrive/BD"
     TEST_HR_THERMAL_PATH = "/content/drive/MyDrive/TestData/GT thermal"
 
     CHECKPOINT_DIR = "/content/drive/MyDrive/SIH_Model_Checkpoints_V2/"
-
     # Training Settings
     VAL_SPLIT = 0.15
     EARLY_STOPPING_PATIENCE = 15
